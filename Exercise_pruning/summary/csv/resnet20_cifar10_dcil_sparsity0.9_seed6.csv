@@ -1,0 +1,2 @@
+Epoch,Acc@1_train,Acc@5_train,Acc@1_valid,Acc@5_valid
+0,46.59,91.16,58.37,96.31

@@ -1,0 +1,1 @@
+EPOCH 0 	ACC_net : 0.4739 	  

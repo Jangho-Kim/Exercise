@@ -1,0 +1,20 @@
+{
+  "text": "log.txt",
+  "exp_name": "cifar10/FT",
+  "log_time": "1",
+  "lr": 0.1,
+  "resume_epoch": 0,
+  "epoch": 163,
+  "decay_epoch": [
+    82,
+    123
+  ],
+  "w_decay": 0.0005,
+  "cu_num": "0",
+  "seed": "1",
+  "load_pretrained_teacher": "trained/Teacher.pth",
+  "load_pretrained_paraphraser": "trained/Paraphraser.pth",
+  "save_model": "ckpt.t7",
+  "rate": 0.5,
+  "beta": 500
+}

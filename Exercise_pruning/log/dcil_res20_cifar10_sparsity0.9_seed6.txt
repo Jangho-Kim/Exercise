@@ -1,0 +1,44 @@
+Namespace(ImageNet='.', arch='resnet', batch_size=128, cu_num='0', cuda=True, datapath='/home/jangho/Data/CIFAR', dataset='cifar10', depth_mult=1.0, epochs=300, gamma=0.1, gpuids=[0], layers=20, load=None, lr=0.2, milestones=[150, 225], model_mult=0, momentum=0.9, nesterov=True, print_freq=100, prune=True, prune_freq=16, prune_imp='L2', prune_rate=0.9, prune_type='unstructured', pruner='dcil', rewind_epoch=16, run_type='train', save='dcil_sparsity0.9_seed6.pth', scheduler='multistep', step_size=30, target_epoch=225, txt_name_test=16, txt_name_train=16, warmup_loss=70, warmup_lr=0.1, warmup_lr_epoch=5, weight_decay=0.0001, width_mult=1.0, workers=4)
+
+=> creating model 'resnet20'
+==> Load data..
+Files already downloaded and verified
+Files already downloaded and verified
+===> Data loading time: 0m 1.09s
+===> Data loaded..
+
+==> resnet20/cifar10 training
+==> Epoch: 0, lr = 0.1
+===> [ Training ]
+Epoch: [0][  0/391]	Time  1.086 ( 1.086)	Data  0.105 ( 0.105)	Loss 2.3600e+00 (2.3600e+00)	Acc@1  10.16 ( 10.16)	Acc@5  54.69 ( 54.69)
+Epoch: [0][ 16/391]	Time  0.032 ( 0.078)	Data  0.000 ( 0.006)	Loss 2.0626e+00 (2.2017e+00)	Acc@1  21.09 ( 17.19)	Acc@5  78.12 ( 69.16)
+Epoch: [0][ 32/391]	Time  0.033 ( 0.047)	Data  0.000 ( 0.003)	Loss 1.8460e+00 (2.0915e+00)	Acc@1  34.38 ( 21.16)	Acc@5  84.38 ( 75.19)
+Epoch: [0][ 48/391]	Time  0.035 ( 0.036)	Data  0.000 ( 0.002)	Loss 1.8363e+00 (2.0042e+00)	Acc@1  28.12 ( 24.28)	Acc@5  83.59 ( 78.62)
+Epoch: [0][ 64/391]	Time  0.030 ( 0.031)	Data  0.000 ( 0.002)	Loss 1.7033e+00 (1.9563e+00)	Acc@1  32.03 ( 25.73)	Acc@5  89.06 ( 80.43)
+Epoch: [0][ 80/391]	Time  0.030 ( 0.028)	Data  0.000 ( 0.001)	Loss 1.7112e+00 (1.9072e+00)	Acc@1  35.94 ( 27.37)	Acc@5  88.28 ( 82.00)
+Epoch: [0][ 96/391]	Time  0.036 ( 0.026)	Data  0.000 ( 0.001)	Loss 1.6396e+00 (1.8733e+00)	Acc@1  35.16 ( 28.83)	Acc@5  86.72 ( 82.94)
+Epoch: [0][112/391]	Time  0.033 ( 0.025)	Data  0.000 ( 0.001)	Loss 1.7368e+00 (1.8452e+00)	Acc@1  33.59 ( 29.80)	Acc@5  86.72 ( 83.76)
+Epoch: [0][128/391]	Time  0.031 ( 0.023)	Data  0.000 ( 0.001)	Loss 1.5359e+00 (1.8172e+00)	Acc@1  39.84 ( 30.97)	Acc@5  94.53 ( 84.56)
+Epoch: [0][144/391]	Time  0.030 ( 0.022)	Data  0.000 ( 0.001)	Loss 1.6837e+00 (1.7943e+00)	Acc@1  34.38 ( 31.96)	Acc@5  89.06 ( 85.15)
+Epoch: [0][160/391]	Time  0.030 ( 0.021)	Data  0.000 ( 0.001)	Loss 1.5414e+00 (1.7697e+00)	Acc@1  40.62 ( 32.99)	Acc@5  90.62 ( 85.76)
+Epoch: [0][176/391]	Time  0.032 ( 0.021)	Data  0.000 ( 0.001)	Loss 1.4260e+00 (1.7468e+00)	Acc@1  45.31 ( 33.90)	Acc@5  93.75 ( 86.35)
+Epoch: [0][192/391]	Time  0.036 ( 0.020)	Data  0.000 ( 0.001)	Loss 1.5477e+00 (1.7217e+00)	Acc@1  46.88 ( 35.01)	Acc@5  91.41 ( 86.86)
+Epoch: [0][208/391]	Time  0.029 ( 0.020)	Data  0.000 ( 0.001)	Loss 1.3163e+00 (1.7006e+00)	Acc@1  57.03 ( 35.84)	Acc@5  96.88 ( 87.32)
+Epoch: [0][224/391]	Time  0.034 ( 0.020)	Data  0.000 ( 0.001)	Loss 1.4805e+00 (1.6804e+00)	Acc@1  43.75 ( 36.68)	Acc@5  92.97 ( 87.70)
+Epoch: [0][240/391]	Time  0.032 ( 0.019)	Data  0.000 ( 0.001)	Loss 1.4419e+00 (1.6597e+00)	Acc@1  49.22 ( 37.54)	Acc@5  93.75 ( 88.08)
+Epoch: [0][256/391]	Time  0.037 ( 0.019)	Data  0.000 ( 0.001)	Loss 1.3952e+00 (1.6373e+00)	Acc@1  49.22 ( 38.43)	Acc@5  95.31 ( 88.49)
+Epoch: [0][272/391]	Time  0.040 ( 0.019)	Data  0.000 ( 0.001)	Loss 1.4272e+00 (1.6179e+00)	Acc@1  52.34 ( 39.40)	Acc@5  95.31 ( 88.83)
+Epoch: [0][288/391]	Time  0.039 ( 0.018)	Data  0.000 ( 0.000)	Loss 1.3062e+00 (1.6000e+00)	Acc@1  56.25 ( 40.19)	Acc@5  93.75 ( 89.10)
+Epoch: [0][304/391]	Time  0.034 ( 0.018)	Data  0.000 ( 0.000)	Loss 1.0374e+00 (1.5820e+00)	Acc@1  60.94 ( 40.92)	Acc@5  98.44 ( 89.37)
+Epoch: [0][320/391]	Time  0.031 ( 0.018)	Data  0.000 ( 0.000)	Loss 1.2248e+00 (1.5645e+00)	Acc@1  56.25 ( 41.71)	Acc@5  94.53 ( 89.62)
+Epoch: [0][336/391]	Time  0.037 ( 0.018)	Data  0.000 ( 0.000)	Loss 1.3733e+00 (1.5474e+00)	Acc@1  53.91 ( 42.39)	Acc@5  94.53 ( 89.89)
+Epoch: [0][352/391]	Time  0.030 ( 0.018)	Data  0.000 ( 0.000)	Loss 1.2234e+00 (1.5303e+00)	Acc@1  59.38 ( 43.06)	Acc@5  92.19 ( 90.16)
+Epoch: [0][368/391]	Time  0.038 ( 0.018)	Data  0.000 ( 0.000)	Loss 1.2148e+00 (1.5150e+00)	Acc@1  56.25 ( 43.67)	Acc@5  95.31 ( 90.42)
+Epoch: [0][384/391]	Time  0.033 ( 0.018)	Data  0.000 ( 0.000)	Loss 1.2231e+00 (1.5006e+00)	Acc@1  54.69 ( 44.21)	Acc@5  96.09 ( 90.62)
+====> Acc@1 44.466 Acc@5 90.714
+====> 6.91 seconds to train this epoch
+
+===> [ Validation ]
+Test: [ 0/79]	Time  0.126 ( 0.126)	Loss 1.4346e+00 (1.4346e+00)	Acc@1  51.56 ( 51.56)	Acc@5  96.09 ( 96.09)
+====> Acc@1 49.690 Acc@5 92.540
+====> 0.66 seconds to validate this epoch
